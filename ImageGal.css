@@ -1,0 +1,100 @@
+body{
+	padding-top:70px;
+	background: linear-gradient(#ffffff, #6DDDE1)
+}
+
+.jumbotron{
+	background-color: #DEF3FB;
+	font-family: "Nova Flat", cursive;
+}
+
+.jumbotron h1{
+	font-weight: 700;
+	font-size: 90px;
+
+}
+
+.jumbotron p{	
+	font-size:40px;
+	font-weight: 500;
+
+}
+
+.navbar-inverse{
+	background-color: #d6f5f6;
+	font-family: "Nova Flat", cursive;
+	border-color: #defcfd;
+}
+
+.navbar-inverse .navbar-brand{
+	color:rgb(51,51,51);
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:rgb(51,51,51);
+}
+
+.thumbnail{
+	background: #C2E4F5 ;
+	border-radius: 13px;
+}
+
+img{
+  	border-radius:8px;
+  	object-fit: cover;
+}
+
+.contain {
+    position: relative;
+    border-radius: 15px;
+ 
+}
+
+.image {
+  	opacity: 1;
+  	display: block;
+  	width: 100%;
+  	height: auto;
+  	transition: .7s ease;
+  	backface-visibility: hidden;
+}
+
+.middle {
+  	transition: .7s ease;
+  	opacity: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%)
+}
+
+.contain:hover .image {
+  	opacity: 0.3;
+
+}
+
+.contain:hover .middle {
+  	opacity: 1;
+}
+
+.text {
+	text-align: center;
+  	background-color:#A5D4ED;
+  	color: white;
+  	font-size: 16px;
+  	padding: 16px 32px;
+  	border-radius: 15px;
+  	font-family: "Nova Flat", cursive;
+}
+
+.profile{border-radius: 50%;
+
+}
+
+@media (max-width: 1300px) {                  
+   .content-to-hide {
+      display: none;
+   }
+   
